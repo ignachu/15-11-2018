@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+@media screen and (orientation:portrait) { body {
+    background:red;
+    }
+}
+@keyframes nombre {
+    from {color:blue transform(0.7);}
+to {color:pink; transform:scale(1.5);}
+    
+}
+    
+h1{
+    font-family: 'Abril Fatface', cursive;
+    animation-name: nombre .5 infinite alternate;
+}
+
+h2{
+    
+}
